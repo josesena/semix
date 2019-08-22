@@ -1,0 +1,62 @@
+.sidebar {
+    width: 260px;
+    background: #344356;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 10px 0px 30px rgba(0,0,0,0.3);
+
+    .logo {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        background: #fff;
+
+
+        img {
+            width: 200px;
+        }
+    }
+
+    .menu {
+        margin-top: 15px;
+        ul {
+            margin: 0;
+            padding: 0;
+            
+            li {
+                display: block;
+
+                a {
+                    display: block;
+                    padding: 10px 10px 10px 20px;
+                    color: #a9b6c7;
+                    
+                    &:hover {
+                        text-decoration: none;
+                    }
+
+                    fa {
+                        margin-right: 10px;
+                    }
+                }
+
+                ul {
+                    margin: 0;
+                    padding: 0;
+
+                    li {
+                        display: block;
+
+                        a {
+                            background: #283643;
+                            padding: 10px 10px 10px 30px;
+                            color: #a9b6c7;
+                        }
+                    }
+                
+                }
+            }
+        }
+    }
+}

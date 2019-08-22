@@ -1,0 +1,44 @@
+
+.info-box {
+    padding: 15px;
+    margin: 15px 0;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.1);
+
+    .titulo {
+        display: block;
+        width: 100%;
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .icone {
+        width: 80px;
+        text-align: center;
+        float: left;
+
+        fa {
+            font-size: 45px;
+        }
+    }
+
+    .conteudo {
+        padding: 10px 0 0 0;
+        
+        h1 {
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            line-height: 16px;
+        }
+
+        p {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
